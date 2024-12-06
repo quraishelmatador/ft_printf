@@ -23,7 +23,13 @@ size_t	ft_strlen(const char *s);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putstr_fd(char *s, int fd);
-void	ft_puthex_fd(int n, int fd);
+void	ft_put_lowhex_fd(uintptr_t n, int fd);
+void	ft_put_uphex_fd(uintptr_t n, int fd);
+void	ft_putnbr_unsigned_fd(unsigned int n, int fd);
+void	ft_putptr_fd(void *ptr, int fd);
+
+
+
 
 
 #endif
